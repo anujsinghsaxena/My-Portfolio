@@ -1,0 +1,51 @@
+.fill {
+    height: 75% !important;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+overflow:hidden;
+background-size: cover;
+background-position: center center;
+
+}
+
+.ima{
+
+    height: 40px;
+    width: 48px;
+    margin-left: 10px;
+    background-color: burlywood;
+    
+    }
+.nav navbar-nav float-left{
+    display: contents;
+}
+#navbar{
+    display: flex;
+    background-color: #8794ed;
+    border-radius: 6px;
+
+
+
+}
+.signin{
+    display: contents;
+    border: 2px solid red;
+    border-radius: 6px;
+    background-color: gold;
+    text-decoration: auto;
+}
+.signup{
+    display: contents;
+    border: 2px solid red;
+    border-radius: 6px;
+    background-color: gold;
+    text-decoration: auto;
+}
+.div-about-me{
+    color: cornflowerblue;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}

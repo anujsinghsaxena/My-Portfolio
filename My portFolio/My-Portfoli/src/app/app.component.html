@@ -1,0 +1,22 @@
+<div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+                <ul class="nav navbar-nav float-left" routerLinkActive="active" style="display: contents;">
+                        <li class="nav-item"> <a class="btn" routerLink="/"><img class="ima"
+                                                src="https://cdn-icons-png.flaticon.com/512/4365/4365933.png"
+                                                alt="image"></a></li>
+                        <!-- </ul>
+           <ul class="nav navbar-nav " style="margin-left: 70%" routerLinkActive="active"> -->
+                        <li class="signin"><a class=" btn" routerLink="/signin" style="margin: 5px;  margin-left: 87%;border: 2px solid red;
+                                        border-radius: 6px;
+                                        background-color: gold;
+                                        text-decoration: auto;">Sign In</a></li>
+                        <li class="signup"><a class="btn" routerLink="/signup" style="margin: 5px;border: 2px solid red;
+                                border-radius: 6px;
+                                background-color: gold;
+                                text-decoration: auto;">Sign Up</a> </li>
+                </ul>
+        </nav>
+        <div class="container">
+                <router-outlet></router-outlet>
+        </div>
+</div>
